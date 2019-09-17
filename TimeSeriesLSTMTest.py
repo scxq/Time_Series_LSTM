@@ -7,7 +7,7 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
-
+%matplotlib inline
 
 
 # load the dataset
@@ -147,7 +147,5 @@ plt.plot(scaler.inverse_transform(dataset))
 plt.plot(trainPredictPlot)
 
 plt.plot(testPredictPlot)
-
-plt.show()
 
 
